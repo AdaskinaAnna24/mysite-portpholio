@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="icons/Логотип.png">
+        <title>Сайт-визитка</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&display=swap">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="header-wrap">
+                <img src="icons/Логотип.png" class="logo">
+                <div class="social-media">
+                    <a href="#"><img src="icons/vk.png" class="vk"></a>
+                    <a href="#"><img src="icons/ок.png" class="vk"></a>
+                    <a href="#"><img src="icons/you.png" class="vk"></a>
+                    <a href="#"><img src="icons/tele.png" class="vk"></a>
+                    <a href="#"><img src="icons/ru.png" class="vk"></a>
+                </div>
+            </div>
+            </div>
+        </header>
+        <section id="hero-section" class="hero">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="hero-wrap">
+                    <img src="img/Моя фотография.png" class="photo">
+                    <div class="offer">
+                        <h1 class="hero-title">Привет! Меня зовут Анна Адаскина. </h1>
+                        <p class="hero-text">Я — основатель детского клуба и школы «Вселенная Знаний», а также детского сада «Куклы». Вашим детям будет интересно с нами. Можно проходить игры, курсы, занятия, уроки и мероприятия детского сада, школы и детского клуба в любое удобное время. Для прохождения нужны стационарный компьютер или ноутбук, стабильный безлимитный интернет и прикрепление к традиционной школе для сдачи выпускных экзаменов и получения аттестата.</p>
+                        <a href="#form" class="btn">Написать мне</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="wrapper">
+                <div class="about-wrap">
+                    <h2 class="about-title">Мои проекты</h2>
+                    <div class="projects-wrap">
+                        <div class="kindergarten-wrap">
+                            <img src="img/Детский сад.png" class="kindergarten">
+                            <h3 class="projects-title">Детский сад <br>«Куклы»</h3>
+                            <a href="#" class="btn-1">Перейти</a>
+                        </div>
+                        <div class="school-wrap">
+                            <img src="img/Школа.png" class="kindergarten">
+                            <h3 class="projects-title">Школа «Вселенная <br>Знаний»</h3>
+                            <a href="#" class="btn-1">Перейти</a>
+                        </div>
+                        <div class="kinderclub-wrap">
+                            <img src="img/Детский клуб.png" class="kindergarten">
+                            <h3 class="projects-title">Детский клуб «Вселенная Знаний»</h3>
+                            <a href="#" class="btn-1">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="wrapper">
+            <h4 class="contacts-title">Связаться со мной</h4>
+            <div class="contacts-wrap">
+            <div id="form" class="form">
+                <h5 class="form-title">Заполнить форму</h5>
+                <input type="text" class="name" placeholder="Ваши ФИО*" required>
+                <input type="text" class="email" placeholder="Электронный адрес*" required>
+                <input type="text" class="phone" placeholder="Мобильный телефон*" required>
+                <input type="text" class="message" placeholder="Текст сообщения*" required>
+                <p class="form-text">* - Обязательно для заполнения</p>
+                <a href="#" class="btn-2">Написать мне</a>
+            </div>
+            <div class="call-wrap">
+                <div class="skype">
+                    <a href="#"><img src="icons/skype.png" class="call"></a>
+                    <p class="skype-text">live:.cid.cb00424840d605fb</p>                    </p>
+                </div>
+                <div class="whatsapp">
+                    <a href="#"><img src="icons/whatsapp.png" class="call"></a>
+                    <p class="wa-text">+79851362265</p>            
+                </div>
+                <div class="mail">
+                    <a href="#"><img src="icons/mail.png" class="call"></a>
+                    <p class="mail-text">internet-business-3@yandex.ru</p>
+                </div>
+                <div class="address">
+                    <a href="#"><img src="icons/address.png" class="call-1"></a>
+                    <p class="address-text">РФ, г. Москва, 111524, ул. Перовская, д.8 корп.2</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <img src="icons/Логотип.png" class="logo">
+                    <div class="right-wrap">
+                        <img src="icons/Авторское право.png" class="right">
+                        <p class="footer-text">2023 Все права защищены</p>
+                    </div>
+                    <a href="#header"><img src="icons/Наверх.png" class="up"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
